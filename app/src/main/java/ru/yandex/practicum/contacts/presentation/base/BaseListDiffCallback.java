@@ -4,9 +4,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.DiffUtil;
 
-import ru.yandex.practicum.contacts.presentation.main.ContactUi;
-import ru.yandex.practicum.contacts.presentation.sort.SortTypeUI;
-
 public class BaseListDiffCallback<T extends ListDiffInterface> extends DiffUtil.ItemCallback<T>  {
 
     @Override
